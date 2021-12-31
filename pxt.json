@@ -1,6 +1,5 @@
 {
     "name": "micro:bit - 入門範例 ( 旋轉感測值 + 平衡燈 ) - OXXO.STUDIO",
-    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -26,5 +25,16 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
 }
