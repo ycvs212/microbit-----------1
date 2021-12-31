@@ -1,5 +1,6 @@
 {
     "name": "micro:bit - 入門範例 ( 旋轉感測值 + 平衡燈 ) - OXXO.STUDIO",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
